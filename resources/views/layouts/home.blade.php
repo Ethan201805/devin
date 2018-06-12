@@ -17,20 +17,20 @@
 <!-- 顶部导航开始 -->
 <header id="b-public-nav" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <div class="navbar-header" style="margin-right:20px">
+        <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="/" style="margin-left:5px">
                 <div class="hidden-xs b-nav-background"></div>
                 <p class="b-logo-word">{{ $config['WEB_NAME'] }}</p>
             </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav b-nav-parent">
+            <ul class="nav navbar-nav b-nav-parent" style="margin-left:20px">
                 <li class="hidden-xs b-nav-mobile"></li>
                 <li class="b-nav-cname  @if($category_id == 'index') b-nav-active @endif">
                 <a href="/">首页</a>
